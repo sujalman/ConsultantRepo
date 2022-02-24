@@ -1,4 +1,9 @@
 package com.kuebiko.consultantService.repo;
 
-public class PersonalDetailsRepo {
+import com.kuebiko.consultantService.entity.PersonalDetailsDto;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PersonalDetailsRepo extends JpaRepository<PersonalDetailsDto,Long> {
 }

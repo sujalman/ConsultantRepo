@@ -1,16 +1,16 @@
 package com.kuebiko.consultantService.dao;
 
-import com.kuebiko.consultantService.models.Address;
+import com.kuebiko.consultantService.models.Education;
 
-public class EducationDao extends BaseDao{
+public class EducationDao extends BaseDao <Education>{
 
     @Override
-    public Object save(Object data) {
+    public Education save(Education data) {
         return null;
     }
 
     @Override
-    public Object findById(Long id) {
+    public Education findById(Long id) {
         return null;
     }
 
