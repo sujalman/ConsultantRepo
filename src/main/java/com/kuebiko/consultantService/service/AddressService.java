@@ -17,11 +17,6 @@ public class AddressService implements BaseServiceIf<Address>{
     }
 
     @Override
-    public Address save(Object payload) {
-        return null;
-    }
-
-    @Override
     public Address save(Address payload) {
         Address saveData = addressDao.save(payload);
         return saveData;
