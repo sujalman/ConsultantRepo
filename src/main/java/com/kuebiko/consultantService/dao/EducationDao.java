@@ -15,7 +15,7 @@ public class EducationDao extends BaseDao <Education>{
     EducationRepo educationRepo;
 
     @Override
-    public Education  save(Education data) {
+    public Education save(Education data) {
 
         EducationDto educationDto = new EducationDto();
 
